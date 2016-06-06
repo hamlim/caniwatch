@@ -1,0 +1,21 @@
+{
+  "name": "caniwatch",
+  "homepage": "https://github.com/hamlim/caniwatch",
+  "authors": [
+    "hamlim <hamlim@rpi.edu>"
+  ],
+  "description": "Can I watch this on an airplane?",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.1.0"
+  }
+}

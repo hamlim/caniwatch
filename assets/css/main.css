@@ -1,0 +1,13 @@
+.card--grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: flex-start;
+}
+.card--element {
+    min-height: 200px;
+    width: 80px;
+    flex: 1 0 auto;
+    display: inline-block;
+}

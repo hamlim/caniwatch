@@ -1,0 +1,93 @@
+:root {
+  --a: #FFB88C;
+  --b: #d4756e;
+  --c: #6ed475;
+  --d: #756ed4;
+  --black: #111;
+  --white: #fff;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Duru Sans', sans-serif;
+  font-size: 18px;
+  color: #111;
+  background-color: #fff;
+}
+
+
+
+.header {
+  background-color: #6ed475;
+  height: 112px;
+  height: 7rem;
+  line-height: 112px;
+  line-height: 7rem;
+  text-align: center;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+  .results {
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    -ms-flex-preferred-size: calc(100vh - 15rem);
+        flex-basis: calc(100vh - 15rem);
+  }
+
+
+
+  .search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 48px;
+    height: 3rem;
+    line-height: 48px;
+    line-height: 3rem;
+    margin: 16px 16px;
+    margin: 1rem 1rem;
+  }
+  .InlineForm {
+    width: 100%;
+  }
+
+.footer {
+  height: 48px;
+  height: 3rem;
+  line-height: 48px;
+  line-height: 3rem;
+  background-color: #6ed475;
+}
+.footer-text {
+  text-align: center;
+}
+
+
+a {
+  color: #d4756e;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #756ed4;
+}
+/*# sourceMappingURL=landing.css.map*/
